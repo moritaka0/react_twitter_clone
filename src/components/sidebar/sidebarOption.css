@@ -1,0 +1,26 @@
+.sidebarOption {
+  /*アイコンと文字を横並びで表示*/
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: color 0.1s ease-out;
+  margin-left: 20px;
+}
+
+/*ホバー時の挙動を定義*/
+.sidebarOption:hover {
+  background-color: #e8f5fe;
+  border-radius: 30px;
+  color: var(--twitter--color);
+}
+
+/*マテリアルUIのアイコンに対してスタイルを設定*/
+.sidebarOption > .MuiSvgIcon-root {
+  padding-right: 20px;
+}
+
+.sidebarOption > h2 {
+  font-size: 20px;
+  margin-right: 20px;
+  font-weight: 800;
+}
